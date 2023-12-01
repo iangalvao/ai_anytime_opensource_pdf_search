@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "opensource-llm-pdf"
+version = "0.1.0"
+description = "Tutorial from ai_anytime channel"
+authors = ["iangalvao <iansgalvao@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.329"
+transformers = "^4.35.0"
+einops = "^0.7.0"
+accelerate = "^0.24.1"
+bitsandbytes = "^0.41.1"
+pdfminer-six = "^20221105"
+sentence-transformers = "^2.2.2"
+chromadb = "^0.4.15"
+requests = "^2.31.0"
+streamlit = "^1.28.1"
+torch = {url = "https://download.pytorch.org/whl/cpu-cxx11-abi/torch-2.0.0%2Bcpu.cxx11.abi-cp310-cp310-linux_x86_64.whl#sha256=c334eeb746b1ca896ba6be84d3a9796b1f9b74efa1a5a818662c9b9d59f97550"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

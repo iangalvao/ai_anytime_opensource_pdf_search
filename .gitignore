@@ -1,0 +1,6 @@
+.env
+venv
+app/LaMini-T5-738M
+app/db/*
+app/docs/*
+app/__pycache__
