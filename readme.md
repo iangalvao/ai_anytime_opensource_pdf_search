@@ -1,4 +1,3 @@
-```markdown
 # AI_ANYTIME Tutorial
 This Repository was made following a tutorial posted on YouTube by the channel [ai_anytime](https://www.youtube.com/@AIAnytime). I included a Dockerfile, a Makefile and poetry package versioning.
 
