@@ -32,17 +32,3 @@ This project relies on various Python libraries and models, including:
 - PDFMiner
 
 You can find the full list of dependencies in the `pyproject.toml` and `requirements.txt` files.
-
-## Configuration
-The application's configuration settings can be found in `constants.py` and `CHROMA_SETTINGS`.
-
-## License
-This project is distributed under the [MIT License](LICENSE.md).
-
-## Acknowledgments
-- The project uses state-of-the-art NLP models from Hugging Face.
-- It makes use of PDFMiner for PDF document processing.
-
-## About
-This project is part of the "AI Anytime Open Source" initiative. Feel free to contribute, report issues, or provide feedback.
-```
